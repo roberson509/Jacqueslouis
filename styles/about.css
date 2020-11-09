@@ -1,0 +1,34 @@
+.picture{
+    width: 50%;
+    height: 100vh;
+    background-color: thistle;
+    position: absolute;
+}
+.text{
+    width: 50%;
+    height: 100vh;
+    background-color: greenyellow;
+    position: absolute;
+    margin-left: 50%;
+
+}
+
+
+@media(max-width: 900px){
+    .picture{
+        width: 50%;
+        height: 100vh;
+        background-color: thistle;
+        position: static;
+       
+     
+    }
+    .text{
+        width: 45%;
+        height: 100vh;
+        background-color: greenyellow;
+        position: static;
+       
+    }
+    
+}
