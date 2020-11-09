@@ -5,54 +5,96 @@
     text-decoration: none;
 }
 
-body{
+ body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+} 
 
 #check{
+    display: none;
+}
+.checkBtn span{
+    color: white;
+    font-size: 50px;
+    line-height: 80px;
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
     display: none;
 }
 nav{
     width: 100%;
     height: 80px;
     background-color: rgb(20, 173, 211);
-}
+} 
 
-nav ul {
+ nav ul {
     float: right;
-    margin-right: 30px;
-}
+    margin-right: 80px;
+} 
 
-nav ul li{
+ nav ul li{
     display: inline;
     line-height: 80px;
     margin: 0 5px;
-}
-nav ul li a {
+} 
+ nav ul li a {
     color: white;
     font-size: 20px;
     padding: 7px 17px;
+} 
+nav ul li a:hover{
+    color: burlywood
 }
 
-label.logo{
+ label.logo{
     color: white;
     font-size: 35px;
     margin: 0 100px;
     line-height: 80px;
     font-weight: bolder;
+} 
+
+@media(max-width: 858px){
+    .checkBtn span{
+        display: block;
+    }
+   nav ul{
+       position: fixed;
+       width: 100%;
+       height: 100vh;
+       background-color: rgba(5, 72, 92, 0.623);
+       left: -100%;
+       transition: all 0.4s;
+   }
+   nav ul li{
+       display: block;
+       margin: 30px 0;
+       text-align: center;
+ 
+}
+nav ul li a{
+    font-size: 20px;
 }
 
-.checkbtn span{
-    color: white;
-    font-size: 50px;
-    line-height: 80px;
-    float: right;
-    margin-right: 50px;
-    display: none;
-};
+#check:checked ~ ul{
+    left: 0;  
+}
 
-@media only screen and (max-width: 600px) {
-    nav {
-      background-color: rgb(9, 10, 10);
-    }
-  }
+} 
+
+section{
+   
+    background: url(/photos/bg.jpg);
+    background-size: cover;
+    height: calc(100vh - 80px)
+}
+
+
+
+
+#aboutMe{
+    width: 100%;
+    height: 100vh;
+    background-color: yellowgreen;
+  
+}
