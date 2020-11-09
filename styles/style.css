@@ -22,6 +22,9 @@
     display: none;
     padding-left: 0;
 }
+#close{
+    display: none;
+}
 nav{
     width: 100%;
     height: 80px;
@@ -117,10 +120,12 @@ label.logo{
     margin: 0 0 0 0;
     
 } 
-
-#check:checked ~ ul{
-    left: 0;  
+logo.active{
+    color: red;
 }
+
+
+
 
 
 

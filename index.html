@@ -9,22 +9,21 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <nav class="nav-bar">
-        <div class="max-width">
-<input type="checkbox" id="check"  onclick="test()">
-<label for="check" class="checkBtn">
-    <span class="material-icons">
+    <nav>
+<label class="checkBtn">
+    <span id="open" class="material-icons">
         menu
-        </span>
+        </span>    
 </label>
+
 <label class="logo"> Jacques Louis</label>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#aboutMe">About me</a></li>
-            <li><a href="#">Contacts</a></li>
+        <ul class="menu">
+            <li ><a onclick="tap()" href="#">Home</a></li>
+            <li><a  onclick="tap()" href="#">Projects</a></li>
+            <li ><a onclick="tap()" href="#aboutMe">About me</a></li>
+            <li ><a onclick="tap()" href="#">Contacts</a></li>
         </ul>
-    </div>
+    
     </nav>
 <!-- Home section start -->
 <section>
@@ -38,6 +37,8 @@
 </section>
 
 <div id="aboutMe"></div>
+
+<script src="menu.js"></script>
 </div>
 </body>
 </html>
