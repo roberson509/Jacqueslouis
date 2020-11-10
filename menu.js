@@ -12,6 +12,6 @@ check.addEventListener("click",()=>{
 function tap(){
     about.style.display = "block";
     mobilMenu.style.left = "-100%";
-    // open.style.display = "block";
+    open.style.display = "block";
     
 }

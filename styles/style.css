@@ -13,7 +13,7 @@
     display: none;
 }
 .checkBtn span{
-    color: white;
+    color: rgb(20, 173, 211);
     font-size: 50px;
     line-height: 80px;
     float: right;
@@ -75,7 +75,7 @@ nav ul li a:hover{
 
 /* Home section styling */
 section{
-    background: url(/photos/bg.jpg) no-repeat ;
+    background: url(../photos/bg.jpg) no-repeat ;
     background-size: cover;
     height: calc(100vh - 80px)
 }
@@ -91,6 +91,7 @@ section{
 @media(max-width: 900px){
     .checkBtn span{
         display: block;
+        color: white;
     }
    nav ul{
        position: absolute;
