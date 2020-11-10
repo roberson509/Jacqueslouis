@@ -1,34 +1,53 @@
 .picture{
     width: 50%;
     height: 100vh;
-    background-color: thistle;
-    position: absolute;
+  
+ float: left;
+   
 }
 .text{
     width: 50%;
     height: 100vh;
-    background-color: greenyellow;
-    position: absolute;
-    margin-left: 50%;
+
+    float: right;
 
 }
 
+.text .word p{
+    padding: 5%;
+
+}
+.text .word h1{
+    padding: 5%;
+    text-align: center;
+}
+.profil{
+    height: 80vh;
+    width:500px; /*container-width*/
+    overflow:hidden; /*hide bounds of image */
+    margin:0;   /*reset margin of figure tag*/
+    margin-top: 10%;
+    margin-left: 20%;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profil img{
+    display:block; 
+    width:100%; /*make image streatch*/ 
+}
 
 @media(max-width: 900px){
     .picture{
-        width: 50%;
+        width: 100%;
         height: 100vh;
-        background-color: thistle;
-        position: static;
-       
-     
+      
     }
     .text{
-        width: 45%;
-        height: 100vh;
-        background-color: greenyellow;
-        position: static;
-       
+        width: 100%;
+        height: 100vh; 
+    }
+    .profil{
+        margin-left: 10%;
     }
     
 }
