@@ -10,7 +10,7 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <nav>
+    <nav id="home">
 <label class="checkBtn">
     <span id="open" class="material-icons">
         menu
@@ -19,7 +19,7 @@
 
 <label class="logo"> Jacques Louis</label>
         <ul class="menu">
-            <li ><a onclick="tap()" href="#">Home</a></li>
+            <li ><a onclick="tap()" href="#home">Home</a></li>
             <li><a  onclick="tap()" href="#">Projects</a></li>
             <li ><a onclick="tap()" href="#aboutMe">About me</a></li>
             <li ><a onclick="tap()" href="#test">Contacts</a></li>
@@ -54,28 +54,27 @@
     <div class="container">
         <form action="action_page.php">
       
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="fname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Your name..">
       
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="lname">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
       
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
+          <label for="country">Telephone Number</label>
+          <input type="text" id="phone" name="phone" placeholder="Your phone number..">
       
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <label for="subject"> Message </label>
+          <textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea>
       
           <input type="submit" value="Submit">
       
         </form>
       </div>
       <div id="test"></div>
-
+</div>
+<!-- Project 1 start -->
+<div class="project-1">
+    
 </div>
 <script src="menu.js"></script>
 </div>

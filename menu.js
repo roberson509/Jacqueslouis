@@ -6,7 +6,7 @@ var open = document.querySelector("#open");
 check.addEventListener("click",()=>{
     mobilMenu.style.left = 0;
     about.style.display = "none";
-    open.style.display = "none";
+    open.style.display = "block";
 })
 
 function tap(){
