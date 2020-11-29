@@ -105,8 +105,6 @@ section{
        height: calc(100vh - 80px);
        background-color: black;
        left: -100%;
-       transition: all 0.4s;
-
    }
    nav ul li{
        display: block;
