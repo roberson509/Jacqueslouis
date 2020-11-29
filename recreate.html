@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav id="home">
+<label class="checkBtn">
+    <span id="open" class="material-icons">
+        menu
+        </span>    
+</label>
+
+<label class="logo"> Jacques Louis</label>
+        <ul class="menu">
+            <li ><a onclick="tap()" href="#home">Home</a></li>
+            <li><a  onclick="tap()" href="#">Projects</a></li>
+            <li ><a onclick="tap()" href="#aboutMe">About me</a></li>
+            <li ><a onclick="tap()" href="#test">Contacts</a></li>
+        </ul>
+    </nav>
+<!-- Home section start -->
+<div id="wraper">
+<section>
+  <div>
+      <div class="home-content">
+          <div class="text-1">Hello, My name is</div>
+          <div class="text-2"> Jacques </div>
+          <div class="text-3"> And I'm a <span>programmer</span> </div>
+      </div>
+  </div>
+</section>
+<!-- About me start -->
+<div class="container-fluid">
+<div id="aboutMe">
+    
+        <div class="row">
+            <div class="col-lg">
+                <div>
+                    <img style="width: 100%; height: 100vh;"  src="photos/profil.jpg" alt="" >
+                  </div>
+            </div>
+            <div class="col-lg">
+                <div>
+                    <div ><h1> Who I am</h1>
+                    <span > 
+                        I appreciate you take the time to visit my website.
+                        My full name is Jacques Roberson Lous, and I am a web developper.
+                        I am a JavaScript and C# developper, but I know some php.
+                        I can work in the font-end and the back-end.
+                        I have solid knowlege in html, css. I can use pretty well node.js with express.js.
+                        In Csharp I have good knowlege in creating window form application.
+                        If you need a simple static website or a dynamic website hit me up at 239-537-8569 or email me in
+                        jrl007@gmai.com. </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div >
+        
+    </div>
+   
+</div>
+<!-- Contact start -->
+<div class="contact" id="contact">
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Your name..">
+      
+          <label for="lname">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+      
+          <label for="country">Telephone Number</label>
+          <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+      
+          <label for="subject"> Message </label>
+          <textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+      <div id="test"></div>
+</div>
+<!-- Project 1 start -->
+<div class="project-1">
+</div>
+    
+</div>
+</div>
+<script src="menu.js"></script>
+</div>
+</body>
+</html>
